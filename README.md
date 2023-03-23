@@ -71,12 +71,9 @@ Step 7:
 
 Write a print statement that prints out the county with the largest turnout.
 After you run your solution to Deliverable 1, confirm that the output to the command line matches the following image:
+![image](https://user-images.githubusercontent.com/119356389/227345365-69584874-6aff-46d0-b3b4-98f4e3007ed7.png)
 
-The election results printed to the computer screen. Line 1 states "Election Results," line 2 contains 25 dashes, line 3 states
-"Total Votes: 369,711", line 4 contains 25 dashes, line 5 is blank, line 6 states "County Votes:, line 7 states "Jefferson: 10.5% (38,855)", line 8
-states "Denver: 82.8% (306,055)", line 9 states "Arapahoe: 6.7% (24,801)", line 10 is blank, line 11 contains 25 dashes, line 12 states
-"Largest County Turnout: Denver", line 13 contains 25 dashes, line 14 is blank, line 15 states "Charles Casper Stockham: 23.0% (85,213," line 16 is blank, line 17 states "Diana DeGette: 73.8% (272,892)," line 17 is blank, line 18 states "Raymon Anthony Doane:
-3.1% (11,606)," line 19 is blank, line 20 contains 25 dashes, line 21 states "Winner: Diane DeGette," line 22 states "Winning Vote Count: 272,892," line 23 states "Winning Percentage: 73.8%," line 24 contains 25 dashes.
+
 
 Deliverable 2: Election Results Saved to a Text File (20 points)
 Using your knowledge of writing data to a text file, write the winning candidate results and the county election results to the election_results.txt file.
@@ -100,9 +97,30 @@ Overview of Election Audit: Explain the purpose of this election audit analysis.
 
 Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 
-How many votes were cast in this congressional election?
+How many votes were cast in this congressional election? 
+
+    There were 369,711 votes that were cast in this election. 
+    ![image](https://user-images.githubusercontent.com/119356389/227346097-b87b3268-cc9d-4dff-9318-5432ca289abf.png)
+
+    
+    
 Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-Which county had the largest number of votes?
+  The following is a breakdown of the votes for each county : 
+  ![image](https://user-images.githubusercontent.com/119356389/227346495-1944ee36-923b-4447-956c-c090ce0c23d3.png)
+
+  
+Which county had the largest number of votes? 
+  Denver is the county with the largest number of votes: 
+  ![image](https://user-images.githubusercontent.com/119356389/227346954-7d2ccf7e-9b85-4707-8ad3-90f221f618be.png)
+
+  
 Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+ The following is the breakdown of the total votes for each condidate: 
+ ![image](https://user-images.githubusercontent.com/119356389/227347412-097595e0-f94c-48ee-a159-587c40987ca6.png)
+
 Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+  The winner of the election is Diana DeGette with 272,892. This was 73.8% of the total votes. 
+  ![image](https://user-images.githubusercontent.com/119356389/227348116-42f83f59-a0dc-4305-b625-11a8ac1d50cb.png)
+
+ 
+Election-Audit Summary: This is an template that can help with elections at any level of government or for anything issue that needs a consensus. I would modify the script to look at issues, and towns, specific cities where councilmen are elected. Where ever there is readable data you can use this scrript to put together the outcomes. 
